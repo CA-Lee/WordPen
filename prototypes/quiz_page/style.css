@@ -1,0 +1,57 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #211533;
+}
+
+.viewbox {
+  
+}
+
+.level {
+  color: #767199;
+  padding: 1ex;
+  backgroundcolor: #F00;
+  font-size: 4ex;
+}
+
+.word {
+  color: #b8a5d4;
+  font-size: 8ex;
+  padding:1ex;
+  backgroundcolor: #0F0;
+}
+
+.selection-board {
+  backgroundcolor: #00F;
+  height:60%;
+}
+
+.sel {
+  color: #b8a5d4;
+  background-color: #463a59;
+  font-family: "Microsoft JhengHei", Arial;
+  
+  margin:0.5ex;
+  padding:0.25ex;
+  font-size: 4ex;
+}
+
+.wrong {
+  background-color: #740000;
+}
+
+.right {
+  background-color: #5e5975;
+}
+
+.sel:hover {
+  color: #b8a5d4;
+}
+
+.sel:focus {
+  box-shadow: none;
+}
